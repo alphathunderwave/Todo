@@ -1,0 +1,75 @@
+.hidden {
+  display: none;
+}
+.true {
+  color: gray;
+  text-decoration: line-through;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 10px;
+  color: #201b17;
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: #F9F2F2;
+  }
+
+.content {
+  padding: 10px;
+  border-radius: 20px;
+}
+#create-project {
+  padding: 10px;
+  background-color: rgb(103 80 164 / 5%);
+  border-radius: 10px;
+  width: fit-content;
+}
+#create-project input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #7c5800;
+  padding: 5px;
+  border-radius: 5px;
+}
+.projects {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: flex-start;
+}
+
+.project {
+  padding: 10px;
+  background-color: #DEE8B2;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 20px;
+}
+.project input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #201b17;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  accent-color: #201b17;
+}
+.project button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #201b17;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,.125);
+}
+button:hover {
+  background-color: rgba(0, 0, 0, 0.125);
+}
